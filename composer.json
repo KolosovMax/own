@@ -1,0 +1,19 @@
+{
+  "name": "web/project",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "KolosvMaxA",
+      "email": "KolosovMaxA@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Disk\\": "src/"
+    }
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
